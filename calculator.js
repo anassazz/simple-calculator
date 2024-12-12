@@ -38,5 +38,6 @@ class Calculator {
         return n * this.factorial(n - 1);
     }
 }
+module.exports = Calculator; // Export de la classe
 
 
